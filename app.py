@@ -9,8 +9,8 @@ import openai
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import AzureOpenAI
 
-os.environ['OPENAI_API_KEY'] = "536352bd0e1e4e67a01568341ea8c31f"
-os.environ['OPENAI_API_BASE'] = "https://aianytime-gpt.openai.azure.com/"
+os.environ['OPENAI_API_KEY'] = ""
+os.environ['OPENAI_API_BASE'] = ""
 os.environ['OPENAI_API_TYPE'] = "azure"
 os.environ['OPENAI_API_VERSION'] = "2023-05-15"
 
